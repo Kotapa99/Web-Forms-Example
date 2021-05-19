@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(45deg , rgb(235, 18, 119) , rgb(53, 53, 245));
+}
+.content{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 700px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    box-shadow: 2px 1px 10px 0px rgba(10, 10, 10, 0.493);
+}
+.input{
+    padding: 15px;
+}
+
+input, select, textarea{
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    outline: 0px solid transparent;
+}
+input:hover , select:hover, textarea:hover{
+    border-bottom: 1px solid rgb(21, 175, 236);
+}
+
+#message{
+    min-height: 50px;
+    max-width: 375px;
+}
+
+button{
+    background-image: linear-gradient(90deg, rgb(245, 46, 46) , rgb(53, 53, 245));
+    height: 50px;
+    width:70%;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 60px;
+    color: honeydew;
+    box-shadow: 2px 2px 3px 0px rgba(10, 10, 10, 0.322);
+    font-size: large;
+}
+
+::placeholder{
+    color: rgb(192, 189, 189);
+}
+.submit, button:hover{
+     /* box-shadow: 2px 2px 3px 0px rgba(8, 8, 8, 0.322); */
+     font-size: larger;
+}
